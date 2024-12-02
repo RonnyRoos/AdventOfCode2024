@@ -20,7 +20,7 @@ def calculate_similarity_score(list1):
     return score
 
 # Example usage:
-file_path = '20241201_01_numbers.txt'
+file_path = '20241201_01.txt'
 list1, list2 = read_numbers_from_file(file_path)
 
 print(calculate_similarity_score(list1))
